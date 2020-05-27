@@ -10,9 +10,19 @@
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <style>
+      @media only screen and (max-width: 767px) {
+        .bg-cover {
+          background-image: url('./bg-full.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+        }
+      }
       .bg-cover {
-        background-image:url('./bg.jpg');
-        background-size:100% 100%;
+        background-image: url('./bg-full.jpg');
+        background-size: cover;
+        background-position: cover;
       }
       p {
         color: white;

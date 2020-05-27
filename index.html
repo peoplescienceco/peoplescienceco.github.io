@@ -7,9 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <style>
-      body {
-        background: url('./bg.jpg') no-repeat center center fixed;
+      .bg-cover {
+        background: url('./bg.jpg') no-repeat center  ;
       }
       p {
         color: white;
@@ -17,21 +19,30 @@
       img {
         width: 400px;
       }
+      .subtitle {
+        font-family: 'Caveat';font-size: 30px;
+      }
+      .coming {
+        font-family: 'Quicksand';font-size: 14px;
+      }
+      .touch {
+        font-family: 'Quicksand';font-size: 12px;
+      }
     </style>
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid bg-cover">
         <div class="row">
             <div class="col-12 p-0">
                 <div class=" min-vh-100 text-center m-0 d-flex flex-column justify-content-center">
                     <h1 class="display-4"><img src="./logo.png"></h1>
                     </p>
-                    <p class="lead">If you're here, there</p>
-                    <p class="lead">must be a reason.</p>
-                    <p class="lead">COMING SOON.</p>
+                    <p class="lead subtitle">If you're here, there <br>must be a reason.</p>
+                    <p class="lead subtitle"></p>
+                    <p class="lead coming">COMING SOON.</p>
                     </p>
-                    <p class="lead">Get in touch: info@peoplescienceco.com</p>
+                    <p class="lead touch">Get in touch: info@peoplescienceco.com</p>
                     </div>
                 </div>
             </div>
